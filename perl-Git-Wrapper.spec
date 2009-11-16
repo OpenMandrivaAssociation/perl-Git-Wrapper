@@ -14,6 +14,7 @@ Source0:    http://www.cpan.org/modules/by-module/Git/%{upstream_name}-%{upstrea
 BuildRequires: git
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(File::pushd)
+BuildRequires: perl(Test::Deep)
 BuildRequires: perl(Test::More)
 
 BuildArch: noarch
