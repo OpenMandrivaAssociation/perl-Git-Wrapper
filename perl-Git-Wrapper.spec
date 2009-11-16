@@ -11,11 +11,15 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Git/%{upstream_name}-%{upstream_version}.tar.gz
 
+BuildRequires: git
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(File::pushd)
 BuildRequires: perl(Test::More)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+
+Requires: git
 
 %description
 Git::Wrapper provides an API for git(7) that uses Perl data structures for
