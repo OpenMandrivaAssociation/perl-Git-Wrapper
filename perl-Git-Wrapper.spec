@@ -1,5 +1,5 @@
 %define upstream_name    Git-Wrapper
-%define upstream_version 0.008
+%define upstream_version 0.010
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
