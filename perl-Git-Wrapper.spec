@@ -35,6 +35,8 @@ argument passing, instead of CLI-style '--options' as the Git manpage does.
 %{make}
 
 %check
+git config --global user.email "John@smith.org"
+git config --global user.name "John Smith"
 %{make} test
 
 %install
