@@ -1,5 +1,6 @@
 removed_sources:
   Git-Wrapper-0.014.tar.gz: e7ad9a035f502cf060c37c312cfe27f03051a4e9
   Git-Wrapper-0.028.tar.gz: 1fa8cbcf112d4f384a2a9e4aa877bba5499f8e5c
-sources:
   Git-Wrapper-0.029.tar.gz: 270de20c3e4033d5107e2126e3715357c74ecc4f
+sources:
+  Git-Wrapper-0.030.tar.gz: 2a5cd51cc65326b27fdc4c40d54e73d44cc6bb84
