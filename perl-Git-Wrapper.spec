@@ -1,5 +1,5 @@
 %define upstream_name    Git-Wrapper
-%define upstream_version 0.030
+%define upstream_version 0.031
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
@@ -8,7 +8,7 @@ Summary:	Wrap git(7) command-line interface
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Git/Git-Wrapper-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Git/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	git
 BuildRequires:	perl-devel
@@ -84,6 +84,7 @@ git config --global user.name "John Smith"
 
 * Mon Nov 16 2009 cpan2dist 0.007-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
 
