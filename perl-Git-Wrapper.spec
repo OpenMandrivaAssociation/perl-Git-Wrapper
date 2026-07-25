@@ -1,14 +1,14 @@
 %define upstream_name    Git-Wrapper
-%define upstream_version 0.031
+%define upstream_version 0.048
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Wrap git(7) command-line interface
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Git/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		http://genehack.github.com/Git-Wrapper
+Source0:	https://cpan.metacpan.org/authors/id/G/GE/GENEHACK/Git-Wrapper-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	git
