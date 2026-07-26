@@ -1,14 +1,13 @@
 %define upstream_name    Git-Wrapper
-%define upstream_version 0.048
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.048
+Release:	2
 
 Summary:	Wrap git(7) command-line interface
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://genehack.github.com/Git-Wrapper
-Source0:	https://cpan.metacpan.org/authors/id/G/GE/GENEHACK/Git-Wrapper-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/G/GE/GENEHACK/Git-Wrapper-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	git
@@ -31,7 +30,7 @@ Git::Wrapper provides an API for git(7) that uses Perl data structures for
 argument passing, instead of CLI-style '--options' as the Git manpage does.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
